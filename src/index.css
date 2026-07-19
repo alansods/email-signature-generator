@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Main Colors */
+  --color-brand-blue: #0047bb;
+  --color-brand-blue-ink: #003a99;
+  --color-brand-blue-soft: #e3f2fd;
+  --color-brand-orange: #f15a29;
+  --color-brand-orange-ink: #d94a1e;
+  --color-brand-red: #ef4444;
+  --color-brand-green: #00c853;
+
+  /* Neutral Scale */
+  --color-neutral-0: #ffffff;
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f5f7fa;
+  --color-neutral-150: #f1f5f9;
+  --color-neutral-300: #e2e8f0;
+  --color-neutral-400: #cbd5e1;
+  --color-neutral-500: #94a3b8;
+  --color-neutral-600: #64748b;
+  --color-neutral-700: #475569;
+  --color-neutral-800: #2d3748;
+  --color-neutral-900: #1a202c;
+  --color-neutral-950: #0f1419;
+
+  /* Font Family */
+  --font-family-sans: 'Geist', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+* {
+  border-color: theme(colors.neutral.300);
+}
+
+body {
+  background: theme(colors.neutral.100);
+  color: theme(colors.neutral.900);
+  font-family: theme(fontFamily.sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

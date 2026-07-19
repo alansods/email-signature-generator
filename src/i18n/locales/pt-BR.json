@@ -1,0 +1,54 @@
+{
+  "header": {
+    "title": "Gerador de Assinaturas de Email",
+    "subtitle": "Preencha os dados, escolha o estilo e copie pronta para o seu email"
+  },
+  "form": {
+    "personalInfo": "Informações pessoais",
+    "fullName": "Nome completo",
+    "jobTitle": "Cargo / Função",
+    "email": "Email",
+    "phone": "Telefone",
+    "companySection": "Empresa e logo",
+    "companyName": "Nome da empresa",
+    "logoUpload": "Enviar logo",
+    "logoProcessing": "Processando...",
+    "logoHint": "PNG, JPG, SVG ou WEBP · máx. 2MB · campo obrigatório",
+    "appearance": "Aparência",
+    "accentColor": "Cor de destaque",
+    "colorDetected": "Detectada automaticamente da sua logo",
+    "colorDefault": "Cor padrão — envie uma logo para detectar automaticamente",
+    "template": "Modelo"
+  },
+  "templates": {
+    "classic": "Clássico",
+    "compact": "Compacto",
+    "divider": "Divisor colorido"
+  },
+  "preview": {
+    "title": "Pré-visualização",
+    "copy": "Copiar assinatura (Gmail/Outlook)",
+    "download": "Baixar como imagem",
+    "hint": "Dica: use \"Copiar assinatura\" e cole direto no campo de assinatura do Gmail ou Outlook."
+  },
+  "placeholders": {
+    "name": "Ana Souza",
+    "jobTitle": "Gerente de Marketing",
+    "company": "Nome da Empresa",
+    "email": "ana.souza@empresa.com",
+    "phone": "(11) 91234-5678"
+  },
+  "messages": {
+    "copiedSuccess": "Assinatura copiada! Cole no seu cliente de email.",
+    "copyError": "Não foi possível copiar automaticamente. Selecione e copie manualmente.",
+    "downloadSuccess": "Imagem baixada com sucesso!",
+    "downloadError": "Erro ao gerar imagem. Tente novamente.",
+    "fileTooLarge": "Arquivo muito grande. Tamanho máximo é 2MB."
+  },
+  "validation": {
+    "required": "Este campo é obrigatório",
+    "logoRequired": "Por favor, envie uma logo",
+    "invalidEmail": "Por favor, insira um email válido",
+    "invalidPhone": "Por favor, insira um telefone válido (ex: (11) 91234-5678)"
+  }
+}

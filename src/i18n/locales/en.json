@@ -1,0 +1,54 @@
+{
+  "header": {
+    "title": "Email Signature Generator",
+    "subtitle": "Fill in the details, choose a style, and copy it to your email"
+  },
+  "form": {
+    "personalInfo": "Personal Information",
+    "fullName": "Full name",
+    "jobTitle": "Job Title / Role",
+    "email": "Email",
+    "phone": "Phone",
+    "companySection": "Company and Logo",
+    "companyName": "Company name",
+    "logoUpload": "Upload logo",
+    "logoProcessing": "Processing...",
+    "logoHint": "PNG, JPG, SVG or WEBP · max 2MB · required field",
+    "appearance": "Appearance",
+    "accentColor": "Accent color",
+    "colorDetected": "Automatically detected from your logo",
+    "colorDefault": "Default color — upload a logo to detect automatically",
+    "template": "Template"
+  },
+  "templates": {
+    "classic": "Classic",
+    "compact": "Compact",
+    "divider": "Colored divider"
+  },
+  "preview": {
+    "title": "Preview",
+    "copy": "Copy signature (Gmail/Outlook)",
+    "download": "Download as image",
+    "hint": "Tip: use \"Copy signature\" and paste directly into Gmail or Outlook signature field."
+  },
+  "placeholders": {
+    "name": "Jane Smith",
+    "jobTitle": "Marketing Manager",
+    "company": "Company Name",
+    "email": "jane.smith@company.com",
+    "phone": "(555) 123-4567"
+  },
+  "messages": {
+    "copiedSuccess": "Signature copied! Paste it into your email client.",
+    "copyError": "Could not copy automatically. Please select and copy manually.",
+    "downloadSuccess": "Image downloaded successfully!",
+    "downloadError": "Error generating image. Please try again.",
+    "fileTooLarge": "File too large. Maximum size is 2MB."
+  },
+  "validation": {
+    "required": "This field is required",
+    "logoRequired": "Please upload a logo",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidPhone": "Please enter a valid phone number (e.g., (555) 123-4567)"
+  }
+}
