@@ -2,6 +2,8 @@
 
 <img width="2955" height="1409" alt="image" src="https://github.com/user-attachments/assets/e6fba259-3b0f-4b58-aa36-b33c58dced90" />
 
+Demo: https://email-signature-generator-eight-wine.vercel.app/
+
 A modern and intuitive web application to create professional, customized email signatures ready to use in Gmail, Outlook, and other email clients.
 
 ## 🎯 About the Project
